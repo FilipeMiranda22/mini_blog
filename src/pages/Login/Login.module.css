@@ -1,0 +1,12 @@
+.login {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.login p {
+  color: #aaa;
+}
+
+.login button {
+  margin-top: 15px;
+}
