@@ -19,6 +19,8 @@ const EditPost = () => {
   const { user } = useAuthValue();
   const navigate = useNavigate();
 
+  console.log(user);
+
   useEffect(() => {
     if (post) {
       setTitle(post.title);
